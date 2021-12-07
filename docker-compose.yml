@@ -1,0 +1,9 @@
+version: '3.7'
+services:
+  web:
+    image: nickadam/maintenance
+    build: .
+    ports:
+      - target: 80
+        published: 8080
+        mode: host
