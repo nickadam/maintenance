@@ -1,7 +1,7 @@
 version: '3.7'
 services:
   web:
-    image: nickadam/maintenance
+    image: nickadam/maintenance:v2
     build: .
     ports:
       - target: 80
